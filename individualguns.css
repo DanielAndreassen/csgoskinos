@@ -1,0 +1,22 @@
+* {
+  border: 0px;
+}
+
+.navbarbutton {
+  background-color: blue;
+  font-size: 20px;
+}
+
+.navbardropdowns {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: gray;
+}
+.maincontainer {
+    max-width: 40vh;
+    text-align: center;
+  
+}
