@@ -3,12 +3,20 @@
   text-decoration: none;
 }
 
+body{
+  background-color: gray;
+}
+
 img {
   width: 30vh;
 }
 
+.titeltext{
+  background-color: gold;
+}
+
 .navbarbutton {
-  background-color: blue;
+  background-color:gold;
   font-size: 20px;
 }
 
@@ -18,7 +26,7 @@ img {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .gunscontainer {

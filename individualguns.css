@@ -2,8 +2,16 @@
   border: 0px;
 }
 
+body{
+  background-color: gray;
+}
+
+p {
+  text-align: center;
+}
+
 .navbarbutton {
-  background-color: blue;
+  background-color: gold;
   font-size: 20px;
 }
 
@@ -13,10 +21,34 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: gray;
+  background-color: lightgray;
 }
 .maincontainer {
-    max-width: 40vh;
-    text-align: center;
-  
+  text-align: center;
+  min-width: 30vh;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  outline: solid black 3px;
 }
+
+.gunstats {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  outline: black solid 3px;
+  background-color: darkgray;
+}
+
+.statcontainer{
+  outline: black solid 2px;
+}
+
+.gundesc{
+  margin: 50px;
+  background-color: darkgray;
+}
+
+
