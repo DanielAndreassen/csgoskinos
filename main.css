@@ -1,10 +1,15 @@
 * {
   border: 0px;
+  text-decoration: none;
 }
 
 .navbarbutton {
-  background-color: blue;
+  background-color: gold;
   font-size: 20px;
+}
+
+body{
+  background-color: gray;
 }
 
 .navbardropdowns {
@@ -13,7 +18,7 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .maincontaienr {
