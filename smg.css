@@ -1,9 +1,22 @@
 * {
   border: 0px;
+  text-decoration: none;
+}
+
+body {
+  background-color: gray;
+}
+
+img {
+  width: 30vh;
+}
+
+.Titel {
+  background-color: gold;
 }
 
 .navbarbutton {
-  background-color: blue;
+  background-color: gold;
   font-size: 20px;
 }
 
@@ -13,5 +26,22 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: gray;
+  background-color: lightgray;
+}
+
+.gunscontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.guncontainer {
+  outline-width: 3px;
+  outline-color: black;
+  outline-style: solid;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 20px;
 }

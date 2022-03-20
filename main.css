@@ -8,7 +8,11 @@
   font-size: 20px;
 }
 
-body{
+.Titel {
+  background-color: gold;
+}
+
+body {
   background-color: gray;
 }
 
