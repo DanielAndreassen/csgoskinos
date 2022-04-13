@@ -2,7 +2,7 @@
   border: 0px;
 }
 
-body{
+body {
   background-color: gray;
 }
 
@@ -42,13 +42,44 @@ p {
   background-color: darkgray;
 }
 
-.statcontainer{
+.statcontainer {
   outline: black solid 2px;
 }
 
-.gundesc{
+.gundesc {
   margin: 50px;
   background-color: darkgray;
 }
 
+.comparebuttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.bottombutton1{
+  margin: 40px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bottombutton2{
+  margin: 40px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
